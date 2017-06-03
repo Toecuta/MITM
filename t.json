@@ -1,0 +1,50 @@
+{
+    "Configuration": {
+        "Author": "X",
+        "Version": "5.0"
+    },
+    "Arguments": {
+        "MITM": "true,XH870412,https://raw.githubusercontent.com/shenhix/MITM/master/MITM",
+        "External": "true,BurpSuite@0.0.0.0:6170",
+        "MacOS": "true,0.0.0.0,0.0.0.0,8888,8889",
+        "DNS": "true,223.5.5.5,223.6.6.6,8.8.8.8,8.8.4.4,119.29.29.29"
+    },
+    "General": {
+        "EnhancedMode": true,
+        "ExcludeHost": true,
+        "WIFIAccess": true,
+        "Replica": false,
+        "URLREGEX": true,
+        "IPCIDR6": true,
+        "USERAGENT": true,
+        "IPV6": false,
+        "Rule": true
+    },
+ "Info": {
+        "SERVER": [
+            "[Surge]|google,custom,104.155.197.173,8989,aes-256-cfb,771ef771ef,[Module]",
+            "[Surge]|dujsq,custom,usa254.ssdu.men,50280,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|cccat,custom,jp.node.cccat.io,45268,chacha20,771ef771ef,[Module]",
+            "[Surge]|ssvpn,custom,185.200.247.25,58105,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|freefan,custom,104.160.185.120,55540,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|kxss,custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
+        ],
+        "Group": [
+            "[Surge]|Proxy = select,google,dujsq,freefan,kxss,cccat,ssvpn" 
+        ]
+    },
+ "SUFFIX": {
+        "Apple": "DIRECT",
+        "Proxy": "Proxy",
+        "KEYWORD": "Proxy",
+        "URLREGEX": "Proxy",
+        "USERAGENT": "Proxy",
+        "IPCIDR6": "Proxy",
+        "IPCIDR": "Proxy",
+        "Other": "Proxy"
+    },
+    "Other": {
+        "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
+        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json"
+    }
+}
