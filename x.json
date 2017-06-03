@@ -1,1 +1,48 @@
-https://async.be/Rule/JSON/Surge?JSON=eyJDb25maWd1cmF0aW9uIjp7IkF1dGhvciI6IlgiLCJWZXJzaW9uIjoiNS4wIn0sIkFyZ3VtZW50cyI6eyJNSVRNIjoidHJ1ZSxYSDg3MDQxMixodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vc2hlbmhpeC9NSVRNL21hc3Rlci9NSVRNIiwiRXh0ZXJuYWwiOiJ0cnVlLEJ1cnBTdWl0ZUAwLjAuMC4wOjYxNzAiLCJNYWNPUyI6InRydWUsMC4wLjAuMCwwLjAuMC4wLDg4ODgsODg4OSIsIkROUyI6InRydWUsMjIzLjUuNS41LDIyMy42LjYuNiw4LjguOC44LDguOC40LjQsMTE5LjI5LjI5LjI5In0sIkdlbmVyYWwiOnsiRW5oYW5jZWRNb2RlIjp0cnVlLCJFeGNsdWRlSG9zdCI6dHJ1ZSwiV0lGSUFjY2VzcyI6dHJ1ZSwiUmVwbGljYSI6ZmFsc2UsIlVSTFJFR0VYIjp0cnVlLCJJUENJRFI2Ijp0cnVlLCJVU0VSQUdFTlQiOnRydWUsIklQVjYiOmZhbHNlLCJSdWxlIjp0cnVlfSwiSW5mbyI6eyJTRVJWRVIiOlsiW1N1cmdlXXxnb29nbGUsY3VzdG9tLDEwNC4xNTUuMTk3LjE3Myw4OTg5LGFlcy0yNTYtY2ZiLDc3MWVmNzcxZWYsW01vZHVsZV0iLCJbU3VyZ2VdfGR1anNxLGN1c3RvbSx1c2EyNTQuc3NkdS5tZW4sNTAyODAscmM0LW1kNSw3NzFlZjc3MWVmLFtNb2R1bGVdIiwiW1N1cmdlXXxmcmVlZmFuLGN1c3RvbSwxMDQuMTYwLjE4NS4xMjAsNTU1NDAscmM0LW1kNSw3NzFlZjc3MWVmLFtNb2R1bGVdIiwiW1N1cmdlXXxreHNzLGN1c3RvbSwxMzguMTI4LjIwMi4yMjAsNDQ1NzYscmM0LW1kNSw3NzFlZjc3MWVmLFtNb2R1bGVdIl0sIkdyb3VwIjpbIltTdXJnZV18UHJveHkgPSBzZWxlY3QsZ29vZ2xlLGR1anNxLGZyZWVmYW4sa3hzcyJdfSwiU1VGRklYIjp7IkFwcGxlIjoiUHJveHkiLCJQcm94eSI6IlByb3h5IiwiS0VZV09SRCI6IlByb3h5IiwiVVJMUkVHRVgiOiJQcm94eSIsIlVTRVJBR0VOVCI6IlByb3h5IiwiSVBDSURSNiI6IlByb3h5IiwiSVBDSURSIjoiUHJveHkiLCJPdGhlciI6IlByb3h5In0sIk90aGVyIjp7Ik1vZHVsZSI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9CdXJwU3VpdGUvUnVsZUxpc3QvbWFzdGVyL01vZHVsZS9Nb2R1bGUiLCJMaXN0IjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0J1cnBTdWl0ZS9SdWxlTGlzdC9tYXN0ZXIvRGV2ZWxvcGVycy5qc29uIn19
+{
+    "Configuration": {
+        "Author": "X",
+        "Version": "5.0"
+    },
+    "Arguments": {
+        "MITM": "true,XH870412,https://raw.githubusercontent.com/shenhix/MITM/master/MITM",
+        "External": "true,BurpSuite@0.0.0.0:6170",
+        "MacOS": "true,0.0.0.0,0.0.0.0,8888,8889",
+        "DNS": "true,223.5.5.5,223.6.6.6,8.8.8.8,8.8.4.4,119.29.29.29"
+    },
+    "General": {
+        "EnhancedMode": true,
+        "ExcludeHost": true,
+        "WIFIAccess": true,
+        "Replica": false,
+        "URLREGEX": true,
+        "IPCIDR6": true,
+        "USERAGENT": true,
+        "IPV6": false,
+        "Rule": true
+    },
+ "Info": {
+        "SERVER": [
+            "[Surge]|google,custom,104.155.197.173,8989,aes-256-cfb,771ef771ef,[Module]",
+            "[Surge]|dujsq,custom,usa254.ssdu.men,50280,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|freefan,custom,104.160.185.120,55540,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|kxss,custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
+        ],
+        "Group": [
+            "[Surge]|Proxy = select,google,dujsq,freefan,kxss"
+        ]
+    },
+ "SUFFIX": {
+        "Apple": "Autoxy",
+        "Proxy": "Proxy",
+        "KEYWORD": "Proxy",
+        "URLREGEX": "Proxy",
+        "USERAGENT": "Proxy",
+        "IPCIDR6": "Proxy",
+        "IPCIDR": "Proxy",
+        "Other": "Proxy"
+    },
+    "Other": {
+        "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
+        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json"
+    }
+}
