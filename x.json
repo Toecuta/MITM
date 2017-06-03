@@ -30,18 +30,17 @@
             "[Surge]|kxss,custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|Proxy = select,google,dujsq,freefan,kxss,cccat,ssvpn",
             "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5"
         ]
     },
  "SUFFIX": {
         "Apple": "DIRECT",
-        "Proxy": "Proxy",
+        "Proxy": "Autoxy",
         "KEYWORD": "Autoxy",
-        "URLREGEX": "Proxy",
-        "USERAGENT": "Proxy",
-        "IPCIDR6": "Proxy",
-        "IPCIDR": "Proxy",
+        "URLREGEX": "Autoxy",
+        "USERAGENT": "Autoxy",
+        "IPCIDR6": "Autoxy",
+        "IPCIDR": "Autoxy",
         "Other": "Autoxy"
     },
     "Other": {
