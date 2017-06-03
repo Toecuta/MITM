@@ -24,12 +24,14 @@
         "SERVER": [
             "[Surge]|google,custom,104.155.197.173,8989,aes-256-cfb,771ef771ef,[Module]",
             "[Surge]|dujsq,custom,usa254.ssdu.men,50280,rc4-md5,771ef771ef,[Module]",
+            "[Surge]|cccat,custom,jp.node.cccat.io,45268,chacha20,771ef771ef,[Module]",
+            "[Surge]|ssvpn,custom,115.159.93.190,58105,rc4-md5,771ef771ef,[Module]",
             "[Surge]|freefan,custom,104.160.185.120,55540,rc4-md5,771ef771ef,[Module]",
             "[Surge]|kxss,custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|Proxy = select,google,dujsq,freefan,kxss",
-            "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Proxy = select,google,dujsq,freefan,kxss,cccat,ssvpn",
+            "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
  "SUFFIX": {
