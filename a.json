@@ -22,6 +22,7 @@
     },
  "Info": {
         "SERVER": [
+            "[Surge]|google,custom,104.155.197.173,8989,aes-256-cfb,771ef771ef,[Module]",
             "[Surge]|dujsq,custom,usa254.ssdu.men,50280,rc4-md5,771ef771ef,[Module]",
             "[Surge]|cccat,custom,jp.node.cccat.io,45268,chacha20,771ef771ef,[Module]",
             "[Surge]|ssvpn,custom,185.200.247.25,58105,rc4-md5,771ef771ef,[Module]",
@@ -29,18 +30,17 @@
             "[Surge]|kxss,custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|Proxy = select,dujsq,freefan,kxss,cccat,ssvpn",
-            "[Surge]|Autoxy = url-test,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
  "SUFFIX": {
         "Apple": "DIRECT",
         "Proxy": "Autoxy",
         "KEYWORD": "Autoxy",
-        "URLREGEX": "Proxy",
-        "USERAGENT": "Proxy",
-        "IPCIDR6": "Proxy",
-        "IPCIDR": "Proxy",
+        "URLREGEX": "Autoxy",
+        "USERAGENT": "Autoxy",
+        "IPCIDR6": "Autoxy",
+        "IPCIDR": "Autoxy",
         "Other": "Autoxy"
     },
     "Other": {
