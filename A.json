@@ -30,7 +30,7 @@
         ],
         "Group": [
             "[Surge]|Proxy = select,dujsq,freefan,kxss,cccat,ssvpn",
-            "[Surge]|Autoxy = url-test,,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Autoxy = url-test,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
  "SUFFIX": {
