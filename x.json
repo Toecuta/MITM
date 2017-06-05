@@ -1,13 +1,13 @@
 {
     "Configuration": {
-        "Author": "BurpSuite",
-        "Version": "6.0"
+        "Author": "X",
+        "Version": "5.0"
     },
     "Arguments": {
-        "MITM": "true,12307CB3,https://raw.githubusercontent.com/shenhix/MITM/master/MITM",
+        "MITM": "true,XH870412,https://raw.githubusercontent.com/shenhix/MITM/master/MITM",
         "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,0.0.0.0,0.0.0.0,8888,8889",
-        "DNS": "true,223.5.5.5,223.6.6.6,8.8.8.8,119.29.29.29"
+        "DNS": "true,223.5.5.5,223.6.6.6,8.8.8.8,8.8.4.4,119.29.29.29"
     },
     "General": {
         "EnhancedMode": true,
@@ -18,7 +18,7 @@
         "IPCIDR6": true,
         "USERAGENT": true,
         "IPV6": false,
-        "Rule": false
+        "Rule": true
     },
  "Info": {
         "SERVER": [
