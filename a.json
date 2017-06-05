@@ -1,7 +1,7 @@
 {
     "Configuration": {
         "Author": "X",
-        "Version": "5.0"
+        "Version": "6.0"
     },
     "Arguments": {
         "MITM": "true,XH870412,https://raw.githubusercontent.com/shenhix/MITM/master/MITM",
