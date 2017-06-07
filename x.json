@@ -32,7 +32,7 @@
         ],
         "Group": [
             "[Surge]|All = select,Direct,Proxy",
-            "[Surge]|Proxy = select,google,dujsq,freefan,kxss,cccat,ssvpn",
+            "[Surge]|Proxy = select,Autoxy,google,dujsq,freefan,kxss,cccat,ssvpn",
             "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
