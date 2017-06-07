@@ -32,19 +32,19 @@
         ],
         "Group": [
             "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5",
-            "[Surge]|Proxy = select,Autoxy,Direct,dujsq,freefan,kxss,cccat,ssvpn",
+            "[Surge]|Proxy = select,Autoxy,Direct,google,dujsq,freefan,kxss,cccat,ssvpn",
             "[Surge]|google = select,Direct,google"
         ]
     },
  "SUFFIX": {
         "Apple": "DIRECT",
-        "Proxy": "Proxy",
-        "KEYWORD": "google",
+        "Proxy": "Autoxy",
+        "KEYWORD": "Proxy",
         "URLREGEX": "Proxy",
         "USERAGENT": "Proxy",
         "IPCIDR6": "Proxy",
         "IPCIDR": "Proxy",
-        "Other": "Proxy"
+        "Other": "Autoxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
