@@ -38,13 +38,13 @@
     },
  "SUFFIX": {
         "Apple": "DIRECT",
-        "Proxy": "Autoxy",
-        "KEYWORD": "Autoxy",
-        "URLREGEX": "Autoxy",
-        "USERAGENT": "Autoxy",
-        "IPCIDR6": "Autoxy",
-        "IPCIDR": "Autoxy",
-        "Other": "Autoxy"
+        "Proxy": "Proxy",
+        "KEYWORD": "google",
+        "URLREGEX": "Proxy",
+        "USERAGENT": "Proxy",
+        "IPCIDR6": "Proxy",
+        "IPCIDR": "Proxy",
+        "Other": "Proxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
