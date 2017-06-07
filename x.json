@@ -31,8 +31,7 @@
             "[Surge]|kxss = custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|All = select,Direct,Proxy",
-            "[Surge]|Proxy = select,Autoxy,Direct,google,dujsq,freefan,kxss,cccat,ssvpn",
+            "[Surge]|All = select,FINAL,Autoxy",
             "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
