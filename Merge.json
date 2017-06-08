@@ -67,8 +67,7 @@
     ],
     "Other": [
         "[SUFFIX]|[CN]|[🇨🇳 Proxy]",
-        "[$GEOIP]|[CN]|[🇨🇳 Proxy]",
-        "[$FINAL]|[🌍 Proxy]"
+        "[$GEOIP]|[CN]|[🇨🇳 Proxy]"
     ],
     "Host": [
         "Merge-Host.com = 127.0.0.1"
