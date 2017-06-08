@@ -66,6 +66,9 @@
         "[200.100.100.104/32]|[REJECT]"
     ],
     "Other": [
+         DOMAIN-SUFFIX,cn,🇨🇳 Proxy
+         GEOIP,CN,🇨🇳 Proxy
+         FINAL,🌍 Proxy
     ],
     "Host": [
         "Merge-Host.com = 127.0.0.1"
@@ -80,7 +83,5 @@
     "SKIP": [
         "<<SKIP"
     ]
- DOMAIN-SUFFIX,cn,🇨🇳 Proxy
- GEOIP,CN,🇨🇳 Proxy
- FINAL,🌍 Proxy
+
 }
