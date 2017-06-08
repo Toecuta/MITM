@@ -31,23 +31,23 @@
             "[Surge]|kxss = custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|🚀Proxy = select,✈️Direct,Autoxy,google,dujsq,freefan,kxss,cccat,ssvpn,⚖️select",
-            "[Surge]|🌍Proxy = select,✈️Direct,🚀Proxy",
-            "[Surge]|🇨🇳Proxy = select,✈️Direct,🚀Proxy",
-            "[Surge]|🍎Proxy = select,✈️Direct,🚀Proxy",
+            "[Surge]| 🚀 Proxy = select,✈️Direct,Autoxy,google,dujsq,freefan,kxss,cccat,ssvpn,⚖️select",
+            "[Surge]| 🌍 Proxy = select,✈️Direct,🚀Proxy",
+            "[Surge]| 🇨🇳 Proxy = select,✈️Direct,🚀Proxy",
+            "[Surge]| 🍎 Proxy = select,✈️Direct,🚀Proxy",
             "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5",
             "[Surge]|⚖️select = select,google,dujsq,freefan,kxss,cccat,ssvpn
         ]
     },
  "SUFFIX": {
-        "Apple": "🍎Proxy",
-        "Proxy": "🚀Proxy",
-        "KEYWORD": "🚀Proxy",
-        "URLREGEX": "🚀Proxy",
-        "USERAGENT": "🚀Proxy",
-        "IPCIDR6": "🚀Proxy",
-        "IPCIDR": "🚀Proxy",
-        "Other": "🚀Proxy"
+        "Apple": "🍎 Proxy ",
+        "Proxy": "🚀 Proxy",
+        "KEYWORD": "🚀 Proxy",
+        "URLREGEX": "🚀 Proxy",
+        "USERAGENT": "🚀 Proxy",
+        "IPCIDR6": "🚀 Proxy",
+        "IPCIDR": "🚀 Proxy",
+        "Other": "🚀 Proxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
