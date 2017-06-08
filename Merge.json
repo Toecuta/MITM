@@ -13,7 +13,7 @@
         "[SUFFIX]|[Merge-Apple5.com]|[Proxy]"
     ],
     "Advanced": [
-        "[SUFFIX]|[Merge-Advanced1.com]|[Proxy]",
+        "[SUFFIX]|[async.be]|[Proxy]",
         "[SUFFIX]|[Merge-Advanced2.com]|[Proxy]",
         "[SUFFIX]|[Merge-Advanced3.com]|[Proxy]",
         "[SUFFIX]|[Merge-Advanced4.com]|[Proxy]",
@@ -42,8 +42,7 @@
     ],
     "KEYWORD": [
         "[^Merge1]|[REJECT]",
-        "[^Merge2]|[DIRECT]",
-        "DOMAIN-KEYWORD,-cn,🇨🇳 Proxy"
+        "[^Merge2]|[DIRECT]"
     ],
     "URLREGEX": [
         "[URLREGEX]|[\\Merge1]|[DIRECT]",
@@ -66,9 +65,6 @@
         "[200.100.100.104/32]|[REJECT]"
     ],
     "Other": [
-        "DOMAIN-SUFFIX,cn,🇨🇳 Proxy",
-        "[$GEOIP]|[CN]|[🇨🇳 Proxy]",
-        "[$FINAL]|[🇨🇳 Proxy]"
     ],
     "Host": [
         "Merge-Host.com = 127.0.0.1"
