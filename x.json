@@ -32,10 +32,10 @@
         ],
         "Group": [
             "[Surge]| 🚀 Proxy = select,✈️ Direct,Autoxy,google,dujsq,freefan,kxss,cccat,ssvpn,⚖️ select",
-            "[Surge]| 🌍 Proxy = select,✈️ Direct,🚀 Proxy",
+            "[Surge]| 🌐 Proxy = select,✈️ Direct,🚀 Proxy",
             "[Surge]| 🇨🇳 Proxy = select,✈️ Direct,🚀 Proxy",
             "[Surge]| 🍎 Proxy = select,✈️ Direct,🚀 Proxy",
-            "[Surge]| Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5",
+            "[Surge]| 🤖️ Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5",
             "[Surge]| ⚖️ select = select,google,dujsq,freefan,kxss,cccat,ssvpn"
         ]
     },
