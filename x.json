@@ -22,7 +22,6 @@
     },
  "Info": {
         "SERVER": [
-            "[Surge]|Direct = direct ",
             "[Surge]|google = custom,104.155.197.173,8989,aes-256-cfb,771ef771ef,[Module]",
             "[Surge]|dujsq = custom,usa254.ssdu.men,50280,rc4-md5,771ef771ef,[Module]",
             "[Surge]|cccat = custom,jp.node.cccat.io,45268,chacha20,771ef771ef,[Module]",
@@ -31,23 +30,23 @@
             "[Surge]|kxss = custom,138.128.202.220,44576,rc4-md5,771ef771ef,[Module]"     
         ],
         "Group": [
-            "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5",
-            "[Surge]|Proxy = select,Autoxy,Direct,dujsq,freefan,kxss,cccat,ssvpn",
-            "[Surge]|google = select,Direct,google"
+            "[Surge]|Proxy = select,Autoxy,Direct,google,dujsq,freefan,kxss,cccat,ssvpn"
+            "[Surge]|Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
  "SUFFIX": {
         "Apple": "DIRECT",
-        "Proxy": "Autoxy",
+        "Proxy": "Proxy",
         "KEYWORD": "Proxy",
         "URLREGEX": "Proxy",
         "USERAGENT": "Proxy",
         "IPCIDR6": "Proxy",
         "IPCIDR": "Proxy",
-        "Other": "Autoxy"
+        "Other": "Proxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
-        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json"
+        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json",
+        "Merge": "https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Example/Merge.json"
     }
 }
