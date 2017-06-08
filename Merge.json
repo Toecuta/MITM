@@ -13,11 +13,7 @@
         "[SUFFIX]|[Merge-Apple5.com]|[Proxy]"
     ],
     "Advanced": [
-        "[SUFFIX]|[Merge-Advanced2.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Advanced2.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Advanced3.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Advanced4.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Advanced5.com]|[Proxy]"
+        "[SUFFIX]|[async.be]|[Proxy]"
     ],
     "Basic": [
         "[SUFFIX]|[Merge-Basic1.com]|[Proxy]",
@@ -65,7 +61,6 @@
         "[200.100.100.104/32]|[REJECT]"
     ],
     "Other": [
-        "[SUFFIX]|[async.be]|[Proxy]",
     ],
     "Host": [
         "Merge-Host.com = 127.0.0.1"
