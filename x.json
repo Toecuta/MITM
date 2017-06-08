@@ -47,6 +47,7 @@
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
+        "Merge": "https://raw.githubusercontent.com/shenhix/MITM/master/Merge.json",
         "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json"
     }
 }
