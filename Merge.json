@@ -43,7 +43,7 @@
     "KEYWORD": [
         "[^Merge1]|[REJECT]",
         "[^Merge2]|[DIRECT]",
-        "[^Merge3]|[Proxy]"
+        "DOMAIN-KEYWORD,-cn,🇨🇳 Proxy"
     ],
     "URLREGEX": [
         "[URLREGEX]|[\\Merge1]|[DIRECT]",
