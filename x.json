@@ -36,7 +36,7 @@
             "[Surge]| 🇨🇳 Proxy = select,✈️ Direct,🚀 Proxy",
             "[Surge]| 🍎 Proxy = select,✈️ Direct,🚀 Proxy",
             "[Surge]| 🤖️ Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5",
-            "[Surge]| ⚖️ select = select，google,dujsq,freefan,kxss,cccat,ssvpn"
+            "[Surge]| ⚖️ select = select,✈️ Direct,google,dujsq,freefan,kxss,cccat,ssvpn"
         ]
     },
     "SUFFIX": {
