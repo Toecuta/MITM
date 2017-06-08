@@ -1,0 +1,86 @@
+{
+    "Info": {
+        "Version":1,
+        "Name":"CloudGate Merge"
+    },
+    "General": [
+    ],
+    "Apple": [
+        "[SUFFIX]|[Merge-Apple1.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Apple2.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Apple3.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Apple4.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Apple5.com]|[Proxy]"
+    ],
+    "Advanced": [
+        "[SUFFIX]|[Merge-Advanced1.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Advanced2.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Advanced3.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Advanced4.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Advanced5.com]|[Proxy]"
+    ],
+    "Basic": [
+        "[SUFFIX]|[Merge-Basic1.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Basic2.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Basic3.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Basic4.com]|[Proxy]",
+        "[SUFFIX]|[Merge-Basic5.com]|[Proxy]"
+    ],
+    "DIRECT": [
+        "[SUFFIX]|[Merge-DIRECT1.com]|[DIRECT]",
+        "[SUFFIX]|[Merge-DIRECT2.com]|[DIRECT]",
+        "[SUFFIX]|[Merge-DIRECT3.com]|[DIRECT]",
+        "[SUFFIX]|[Merge-DIRECT4.com]|[DIRECT]",
+        "[SUFFIX]|[Merge-DIRECT5.com]|[DIRECT]"
+    ],
+    "REJECT": [
+        "[SUFFIX]|[Merge-REJECT1.com]|[REJECT]",
+        "[SUFFIX]|[Merge-REJECT2.com]|[REJECT]",
+        "[SUFFIX]|[Merge-REJECT3.com]|[REJECT]",
+        "[SUFFIX]|[Merge-REJECT4.com]|[REJECT]",
+        "[SUFFIX]|[Merge-REJECT5.com]|[REJECT]"
+    ],
+    "KEYWORD": [
+        "[^Merge1]|[REJECT]",
+        "[^Merge2]|[DIRECT]",
+        "[^Merge3]|[Proxy]"
+    ],
+    "URLREGEX": [
+        "[URLREGEX]|[\\Merge1]|[DIRECT]",
+        "[URLREGEX]|[\\Merge2]|[REJECT]",
+        "[URLREGEX]|[\\Merge3]|[Proxy]"
+    ],
+    "USERAGENT": [
+        "[USERAGENT]|[Merge*]|[DIRECT]"
+    ],
+    "IPCIDR6": [
+        "[IPCIDR6]|[2007::/16]|[DIRECT]",
+        "[IPCIDR6]|[2008::/16]|[REJECT]",
+        "[IPCIDR6]|[2009::/16]|[Proxy]"
+    ],
+    "IPCIDR": [
+        "[200.100.100.100/32]|[DIRECT]",
+        "[200.100.100.101/32]|[REJECT]",
+        "[200.100.100.102/32]|[Proxy]",
+        "[200.100.100.103/32]|[DIRECT]",
+        "[200.100.100.104/32]|[REJECT]"
+    ],
+    "Other": [
+    ],
+    "Host": [
+        "Merge-Host.com = 127.0.0.1"
+    ],
+    "YouTube": [
+    ],
+    "Rewrite": [
+        "^(http|https)://Merge-Rewrite.com/[AUTHKEY] - reject"
+    ],
+    "MITM": [
+    ],
+    "SKIP": [
+        "<<SKIP"
+    ]
+ DOMAIN-SUFFIX,cn,🇨🇳 Proxy
+ GEOIP,CN,🇨🇳 Proxy
+ FINAL,🌍 Proxy
+}
