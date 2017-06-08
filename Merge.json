@@ -65,6 +65,7 @@
         "[200.100.100.104/32]|[REJECT]"
     ],
     "Other": [
+        "[SUFFIX]|[async.be]|[Proxy]",
     ],
     "Host": [
         "Merge-Host.com = 127.0.0.1"
