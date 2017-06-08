@@ -16,11 +16,7 @@
         "[SUFFIX]|[async.be]|[Proxy]"
     ],
     "Basic": [
-        "[SUFFIX]|[Merge-Basic1.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Basic2.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Basic3.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Basic4.com]|[Proxy]",
-        "[SUFFIX]|[Merge-Basic5.com]|[Proxy]"
+        "[SUFFIX]|[async.be]|[Proxy]"
     ],
     "DIRECT": [
         "[SUFFIX]|[Merge-DIRECT1.com]|[DIRECT]",
