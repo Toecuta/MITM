@@ -32,6 +32,7 @@
         ],
         "Group": [
             "[Surge]|🚀 Proxy = select,🤖️ Autoxy,✈️ Direct,google,dujsq,freefan,kxss,cccat,ssvpn",
+            "[Surge]|🌐 Proxy = select, ✈️ Direct, 🚀 Proxy",
             "[Surge]|🤖️ Autoxy = url-test,google,dujsq,freefan,kxss,cccat,ssvpn, url = http://www.gstatic.com/generate_204, interval = 1200, tolerance = 200, timeout = 5"
         ]
     },
@@ -43,7 +44,7 @@
         "USERAGENT": "🚀 Proxy",
         "IPCIDR6": "🚀 Proxy",
         "IPCIDR": "🚀 Proxy",
-        "Other": "🚀 Proxy"
+        "Other": "🌐 Proxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
